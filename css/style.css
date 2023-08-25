@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    border-bottom: 2px solid;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    border-bottom: 0px solid;
+}
+
+.bi{
+    font-size: 2rem;
+    color: #000000;
+}
+
+/* Navigation */
+.navbar-nav{
+    font-size: 1.2rem;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border-bottom: 0px solid;
+}
+
+/* Navigation links */
+.nav-link{
+    color: #000000;
+}
+
+/* Navigation links shadow */
+.nav-link:hover{
+    border: 2px solid black;
+    border-radius: 0px;
+    box-shadow: 2px 2px;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+}
+
+.frame{
+    border: 2px solid black;
+    border-radius: 0px;
+    box-shadow: 2px 2px; 
+}
+
+.info{
+    font-size: 1.25vw;
+}
+
+.expl{
+    color: darkgray;
+}
+
+.guide{
+    font-size: 1.25vw; 
+}
+
+.guide-text{
+    font-size: 1.25vw;
+}
+
+.maplist{
+    font-size: 1.25vw;
+
+}
+
+.sep{
+    font-size: 1.25vw;
+}
+
+.mapselection{
+    font-size: 1.25vw;
+    cursor: pointer;
+}
+
+/* Add hover effect for the list items */
+.mapselection:hover {
+    color: rgb(129, 129, 214);
+}
+
+.mapselection.activemap {
+    color: rgb(202, 16, 16);
+  }
+
+.sankeyframe{
+    aspect-ratio: 16/8;
+  }
+
+path{
+    fill: lightgray;
+    stroke: rgb(255, 255, 255);
+}
+
+path:hover{
+    fill: rgba(129, 129, 214, 0.749);
+    cursor: pointer;
+}
+
+.active{
+    fill: rgb(202, 16, 16);
+}
+
+#tooltip{
+    font-weight: 500;
+    display: none;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 0px;
+    box-shadow: 2px 2px;
+}
+
+.region.caz{
+    fill: rgba(221, 128, 102, 0.844);
+}
+.region.cha{
+    fill: rgba(139, 176, 208, 0.844);
+}
+.region.eur{
+    fill: rgba(169, 199, 155, 0.844);
+}
+.region.ind{
+    fill: rgba(104, 145, 109, 0.681);
+}
+.region.jpn{
+    fill: rgb(255, 196, 0);
+}
+.region.lam{
+    fill: rgba(200, 151, 199, 0.844);
+}
+.region.mea{
+    fill: rgba(160, 187, 206, 0.781);
+}
+.region.neu{
+    fill: rgba(175, 125, 149, 0.844);
+}
+.region.oas{
+    fill: rgba(165, 80, 80, 0.748);
+}
+.region.ref{
+    fill: rgba(164, 144, 182, 0.844);
+}
+.region.ssa{
+    fill: rgba(215, 128, 57, 0.54);
+}
+.region.usa{
+    fill: rgba(173, 136, 107, 0.736);
+}
+
+.region:hover{
+    fill: rgba(226, 11, 11, 0.749);;
+}
+
+.region.active{
+    fill: red;
+}
+
+
