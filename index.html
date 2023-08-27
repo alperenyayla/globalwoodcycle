@@ -32,32 +32,29 @@
 
     <div id="tooltip"></div>
 
-    <div class="container-fluid p-0 p-lg-4">
+    <div class="container-fluid p-2 p-lg-4">
       <div class="row">
-        <div class="col-lg-3 ps-4 pt-2 pb-lg-4"> <!--align-self-center??-->
-          <div class="frame p-3">
-            <h1 class="h3 bi-journals"></h1>
+        <div class="col-lg-3 p-2 p-lg-4 py-lg-2"> <!--align-self-center??-->
+          <div class="frame px-3 py-1 p-lg-3 m-0">
+            <h1 class="h2 bi-journals"></h1>
             <h3 class="h5 info frametext py-lg-2">This research quantifies the wood cycles at both regional and global levels to explore supply-demand imbalance due to increased wood demand, especially with the trend toward large-scale material substitution.<a href="#" class="expl"> Read more!</a>
             </h3>
-            <h3 class="h5 frametext py-lg-2">Select an analysis level below and click on a region on the map to see the life cycle of wood!
+            <h3 class="h5 frametext py-lg-2 my-0">Select an analysis level and click on a zone on the map to see the life cycle of wood!
             </h3>
-            <div class="px-2 py-lg-2">
-              <ol class="maplist d-flex justify-content-around  m-0 px-1 py-1">
-                <li id="global" class="h5 frametext mapselection activemap m-0 px-3 py-2 p-lg-0" onclick="showMap('global')">Global</li>
-                <li class="h5 frametext sep m-0 px-2 py-2 d-none d-lg-block py-lg-0">|</li>
-                <li id="regions" class="h5 frametext mapselection m-0 px-3 py-2 p-lg-0" onclick="showMap('regions')">Regions</li>
-                <li class="h5 frametext sep m-0 px-2 py-2 d-none d-lg-block py-lg-0">|</li>
-                <li id="countries" class="h5 frametext  mapselection m-0 px-3 py-2 p-lg-0" onclick="showMap('countries')">Countries</li>
-              </ol>
-            </div>
+
           </div>
 
         </div>
-
-        <div class="col-lg-9 py-0 map">
+        <div class="col-lg-9 ps-4 ps-lg-0 py-lg-2 map">
           <div id="contentDiv" class="row">
-
-            <svg id="globalSVG" class="svg-content" baseprofile="tiny" fill="#ececec" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" version="1.5" viewbox="175 0 1800 857" xmlns="https://www.w3.org/2000/svg">
+            <div class="">
+              <ol class="d-flex justify-content-center justify-content-lg-start px-0 px-lg-3 ms-0 mb-2 mb-lg-3">
+                <li id="global" class="h5 maptext mapselection activemap px-2 px-lg-3 py-2 me-1" onclick="showMap('global')">Global</li>
+                <li id="regions" class="h5 maptext mapselection px-2 px-lg-3 py-2 mx-1" onclick="showMap('regions')">Regions</li>
+                <li id="countries" class="h5 maptext  mapselection px-2 px-lg-3 py-2 ms-1" onclick="showMap('countries')">Countries</li>
+              </ol>
+            </div>
+            <svg id="globalSVG" class="svg-content" baseprofile="tiny" fill="#ececec" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" version="1.5" viewbox="170 0 1850 857" xmlns="https://www.w3.org/2000/svg">
                   <path class="Global" id="" name="" href="#" title="Global" class="country" 
                   onclick="openIframe('global.html', this)"
                   onmouseover="showName(event)"
@@ -1014,7 +1011,7 @@
                   </circle>
             </svg>
 
-            <svg id="regionsSVG" class="svg-content" style="display: none;" baseprofile="tiny" fill="#ececec" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" version="1.2" viewbox="175 0 1800 857" xmlns="https://www.w3.org/2000/svg">
+            <svg id="regionsSVG" class="svg-content" style="display: none;" baseprofile="tiny" fill="#ececec" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" version="1.2" viewbox="170 0 1850 857" xmlns="https://www.w3.org/2000/svg">
               <a href="#" title="All" class="country"
               onmouseover="showName(event)"
               onmouseout="hideName()">
@@ -1515,7 +1512,7 @@
               </circle>
             </svg>
 
-            <svg id="countriesSVG" class="svg-content" style="display: none;" baseprofile="tiny" fill="#ececec" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" version="1.2" viewbox="175 0 1800 857" xmlns="https://www.w3.org/2000/svg">
+            <svg id="countriesSVG" class="svg-content" style="display: none;" baseprofile="tiny" fill="#ececec" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" version="1.2" viewbox="170 0 1850 857" xmlns="https://www.w3.org/2000/svg">
               <a href="#" title="All" class="country"
               onmouseover="showName(event)"
               onmouseout="hideName()">

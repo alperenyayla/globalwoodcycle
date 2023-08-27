@@ -54,7 +54,9 @@ body{
 }
 
 @media screen and (max-width: 992px) {
-    .frame {         
+    .frame {
+        border-radius: 0px;
+             
     }
 }
 
@@ -62,7 +64,7 @@ body{
     .frame {
         border: 2px solid black;
         border-radius: 0px;
-        box-shadow: 2px 2px; 
+        box-shadow: 1.5px 1.5px; 
     }
 }
 
@@ -70,23 +72,49 @@ body{
     .frametext {
         font-size: 3.8vw;         
     }
+    
+    .maptext{
+        font-size: 3vw;
+    }
 }
 
 @media (min-width:576px) and (max-width:768px) {
     .frametext {
         font-size: 3vw;         
     }
+
+    .maptext{
+        font-size: 2.4vw;
+    }
 }
 
 @media (min-width:768px) and (max-width:992px) {
     .frametext {
-        font-size: 2.2vw;         
+        font-size: 2.4vw;         
+    }
+
+    .maptext{
+        font-size: 2vw ;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media (min-width:992px) and (max-width:1400px) {
     .frametext {
-        font-size: 1.2vw; 
+        font-size: 1.4vw;         
+    }
+
+    .maptext{
+        font-size: 1.2vw;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .frametext {
+        font-size: 1.25vw; 
+    }
+
+    .maptext{
+        font-size: 1.1vw ;
     }
 }
 
@@ -111,28 +139,37 @@ body{
 
 @media screen and (max-width: 992px) {
     .mapselection {
-        border: 2px solid black;
+        cursor: pointer;
+        border: 1px solid black;
         border-radius: 0px;
-        box-shadow: 2px 2px; 
+        box-shadow: 1px 1px;
+    }
+
+    .mapselection.activemap {
+        border-color: rgb(0, 0, 0);
+        box-shadow: 1px 1px black; 
+        color: rgb(210, 41, 41);
     }
 }
 
 @media screen and (min-width: 992px) {
     .mapselection {
+        cursor: pointer;
+        border: 1.75px solid black;
+        border-radius: 0px;
+        box-shadow: 1.75px 1.75px;
     }
-}
 
-.mapselection{
-    cursor: pointer;
+    .mapselection.activemap {
+        border-color: rgb(0, 0, 0);
+        box-shadow: 1.75px 1.75px black; 
+        color: rgb(210, 41, 41);
+    }
 }
 
 .mapselection:hover {
     color: rgb(129, 129, 214);
 }
-
-.mapselection.activemap {
-    color: rgb(255, 77, 0);
-  }
 
 .sankeyframe{
     aspect-ratio: 16/8;

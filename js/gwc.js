@@ -16,7 +16,7 @@ function openIframe(iframeFilePath, clickedPath) {
     var iframeContainer = document.getElementById('iframeContainer');
     iframeContainer.innerHTML = ''; // Clear previous iframe (if any)
     iframeContainer.appendChild(iframe);
-    iframeContainer.scrollIntoView({ behavior: 'smooth' });
+    iframeContainer.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
 }
 
 function showName(event) {
