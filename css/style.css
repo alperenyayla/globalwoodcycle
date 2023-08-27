@@ -54,11 +54,7 @@ body{
 }
 
 @media screen and (max-width: 992px) {
-    .frame {
-        border: 2px solid black;
-        border-radius: 0px;
-        box-shadow: 2px 2px;
-         
+    .frame {         
     }
 }
 
@@ -78,7 +74,7 @@ body{
 
 @media (min-width:768px) and (max-width:992px) {
     .frametext {
-        font-size: 1.8vw;         
+        font-size: 2.1vw;         
     }
 }
 
@@ -107,6 +103,19 @@ body{
 .sep{
 }
 
+@media screen and (max-width: 992px) {
+    .mapselection {
+        border: 2px solid black;
+        border-radius: 0px;
+        box-shadow: 2px 2px; 
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mapselection {
+    }
+}
+
 .mapselection{
     cursor: pointer;
 }
@@ -116,7 +125,7 @@ body{
 }
 
 .mapselection.activemap {
-    color: rgb(202, 16, 16);
+    color: rgb(255, 77, 0);
   }
 
 .sankeyframe{
