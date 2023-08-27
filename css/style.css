@@ -53,43 +53,64 @@ body{
     font-weight: 500;
 }
 
-.frame{
-    border: 2px solid black;
-    border-radius: 0px;
-    box-shadow: 2px 2px; 
+@media screen and (max-width: 992px) {
+    .frame {
+        border: 2px solid black;
+        border-radius: 0px;
+        box-shadow: 2px 2px;
+         
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .frame {
+        border: 2px solid black;
+        border-radius: 0px;
+        box-shadow: 2px 2px; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .frametext {
+        font-size: 3vw;         
+    }
+}
+
+@media (min-width:576px) and (max-width:992px) {
+    .frametext {
+        font-size: 1.8vw;         
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .frametext {
+        font-size: 1.2vw; 
+    }
 }
 
 .info{
-    font-size: 1.25vw;
 }
 
 .expl{
-    color: darkgray;
+    color:rgb(212, 209, 209);
 }
 
 .guide{
-    font-size: 1.25vw; 
 }
 
 .guide-text{
-    font-size: 1.25vw;
 }
 
 .maplist{
-    font-size: 1.25vw;
-
 }
 
 .sep{
-    font-size: 1.25vw;
 }
 
 .mapselection{
-    font-size: 1.25vw;
     cursor: pointer;
 }
 
-/* Add hover effect for the list items */
 .mapselection:hover {
     color: rgb(129, 129, 214);
 }
