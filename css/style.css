@@ -172,8 +172,9 @@ body{
 }
 
 .sankeyframe{
+    max-height: 768px;
     min-height: 576px; 
-    aspect-ratio: 16/8;
+    aspect-ratio: 2.2/1;
   }
 
 path{
