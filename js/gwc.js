@@ -1,4 +1,4 @@
-function openIframe(iframeFilePath, clickedPath) {
+function openIframe(iframeFilePath1, iframeFilePath2, clickedPath) {
     // Remove the .active class from all paths
     var allPaths = document.querySelectorAll('path');
     for (var i = 0; i < allPaths.length; i++) {
@@ -8,15 +8,24 @@ function openIframe(iframeFilePath, clickedPath) {
     // Add the .active class to the clicked path
     clickedPath.classList.add('active');
 
-    var iframe = document.createElement('iframe');
-    iframe.src = iframeFilePath;
-    iframe.width = '100%';
-    iframe.style.border = 'none';
+    var iframe1 = document.createElement('iframe');
+    iframe1.src = iframeFilePath1;
+    iframe1.width = '100%';
+    iframe1.style.border = 'none';
+
+    var iframe2 = document.createElement('iframe');
+    iframe2.src = iframeFilePath2;
+    iframe2.width = '100%';
+    iframe2.style.border = 'none';
+
+    document.getElementById('igroupContainer').style.display = 'block';
     
     var iframeContainer = document.getElementById('iframeContainer');
     iframeContainer.innerHTML = ''; // Clear previous iframe (if any)
-    iframeContainer.appendChild(iframe);
-    iframeContainer.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
+    itableContainer.innerHTML = ''; // Clear previous iframe (if any)
+    iframeContainer.appendChild(iframe1);
+    itableContainer.appendChild(iframe2);
+    igroupContainer.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
 }
 
 function showName(event) {

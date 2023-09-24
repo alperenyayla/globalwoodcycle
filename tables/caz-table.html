@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Global Wood Cycle | Yayla & Myers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pod7zjs.css">
+    <link rel="stylesheet" href="/globalwoodcycle/css/style-table.css">
+  </head>
+
+  <div>
+    <h3 class="mainhead px-2 pt-3 pb-0">Data Table</h3>
+  </div>
+
+  <div class="mytable px-2 py-2" data-example-id="" id="accordion">
+    <p class="head py-1 d-flex justify-content-center">
+      <button class="btn mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#allflows" aria-expanded="true" aria-controls="collapseExample">
+      All Flows
+      </button>
+      <button class="btn mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#sources" aria-expanded="false" aria-controls="collapseExample">
+      Sources
+      </button>
+      <button class="btn mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#harvesting" aria-expanded="false" aria-controls="collapseExample">
+      Harvesting
+      </button>
+      <button class="btn mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#primaryprocessing" aria-expanded="false" aria-controls="collapseExample">
+      Primary Processing
+      </button>
+      <button class="btn mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#secondaryprocessing" aria-expanded="false" aria-controls="collapseExample">
+      Secondary Processing
+      </button>
+      <button class="btn mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#useandeol" aria-expanded="false" aria-controls="collapseExample">
+      Use and E-o-L
+      </button>
+    </p>
+
+    <div class="collapse" id="sources" data-bs-parent="#accordion"><div class="card card-block tablecontent px-4 pt-3 pb-4"><div class="tablehead">Sources</div><table>
+      <tr class="tablerow"><td class="tablecell caption">From</td><td class="tablecell caption">To</td><td class="tablecell caption">Flow</td><td class="tablecell caption quantity">Quantity [MT]</td></tr>
+      <tr class="tablerow"><td class="tablecell">Legal Sources</td><td class="tablecell">Harvesting</td><td class="tablecell">Softwood</td><td class="tablecell quantity">65.201</td></tr>
+      <tr class="tablerow"><td class="tablecell">Legal Sources</td><td class="tablecell">Harvesting</td><td class="tablecell">Hardwood</td><td class="tablecell quantity">19.139</td></tr>
+      <tr class="tablerow"><td class="tablecell">Illegal Sources</td><td class="tablecell">Harvesting</td><td class="tablecell">Softwood</td><td class="tablecell quantity">1.226</td></tr>
+      <tr class="tablerow"><td class="tablecell">Illegal Sources</td><td class="tablecell">Harvesting</td><td class="tablecell">Hardwood</td><td class="tablecell quantity">2.175</td></tr>
+      </table></div></div>
+      
+      <div class="collapse" id="harvesting" data-bs-parent="#accordion"><div class="card card-block tablecontent px-4 pt-3 pb-4"><div class="tablehead">Harvesting</div><table>
+      <tr class="tablerow"><td class="tablecell caption">From</td><td class="tablecell caption">To</td><td class="tablecell caption">Flow</td><td class="tablecell caption quantity">Quantity [MT]</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Sawlogs and Veneer Logs | Softwood</td><td class="tablecell quantity">44.033</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Sawlogs and Veneer Logs | Hardwood</td><td class="tablecell quantity">1.953</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Sawlogs and Veneer Logs | Softwood</td><td class="tablecell quantity">1.035</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Sawlogs and Veneer Logs | Hardwood</td><td class="tablecell quantity">0.14</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Wood-based Panels Pr.</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Softwood</td><td class="tablecell quantity">0.828</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Wood-based Panels Pr.</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Hardwood</td><td class="tablecell quantity">1.359</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Softwood</td><td class="tablecell quantity">8.346</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Hardwood</td><td class="tablecell quantity">13.751</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Wood Charcoal Pr.</td><td class="tablecell">Wood Fuel</td><td class="tablecell quantity">0.152</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Other Industrial Roundwood | Softwood</td><td class="tablecell quantity">0.452</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Other Industrial Roundwood | Hardwood</td><td class="tablecell quantity">1.14</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Biomass Use</td><td class="tablecell">Wood Fuel | Softwood</td><td class="tablecell quantity">0.22</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Biomass Use</td><td class="tablecell">Wood Fuel | Hardwood</td><td class="tablecell quantity">2.808</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Roundwood</td><td class="tablecell">Harvesting</td><td class="tablecell">Wood Fuel | Softwood</td><td class="tablecell quantity">0.048</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Roundwood</td><td class="tablecell">Harvesting</td><td class="tablecell">Wood Fuel | Hardwood</td><td class="tablecell quantity">0.049</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Roundwood</td><td class="tablecell">Harvesting</td><td class="tablecell">Sawlogs and Veneer Logs | Softwood</td><td class="tablecell quantity">1.268</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Roundwood</td><td class="tablecell">Harvesting</td><td class="tablecell">Sawlogs and Veneer Logs | Hardwood</td><td class="tablecell quantity">0.306</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Roundwood</td><td class="tablecell">Harvesting</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Softwood</td><td class="tablecell quantity">0.12</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Roundwood</td><td class="tablecell">Harvesting</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Hardwood</td><td class="tablecell quantity">0.351</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Roundwood</td><td class="tablecell">Harvesting</td><td class="tablecell">Other Industrial Roundwood | Softwood</td><td class="tablecell quantity">0.014</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Roundwood</td><td class="tablecell">Harvesting</td><td class="tablecell">Other Industrial Roundwood | Hardwood</td><td class="tablecell quantity">0.039</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export | Roundwood</td><td class="tablecell">Wood Fuel | Softwood</td><td class="tablecell quantity">0.061</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export | Roundwood</td><td class="tablecell">Wood Fuel | Hardwood</td><td class="tablecell quantity">0.053</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export | Roundwood</td><td class="tablecell">Sawlogs and Veneer Logs | Softwood</td><td class="tablecell quantity">11.434</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export | Roundwood</td><td class="tablecell">Sawlogs and Veneer Logs | Hardwood</td><td class="tablecell quantity">0.208</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export | Roundwood</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Softwood</td><td class="tablecell quantity">1.085</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export | Roundwood</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Hardwood</td><td class="tablecell quantity">0.238</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export | Roundwood</td><td class="tablecell">Other Industrial Roundwood | Softwood</td><td class="tablecell quantity">0.126</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export | Roundwood</td><td class="tablecell">Other Industrial Roundwood | Hardwood</td><td class="tablecell quantity">0.027</td></tr>
+      </div></div></div></table></div></div>
+      
+      <div class="collapse" id="primaryprocessing" data-bs-parent="#accordion"><div class="card card-block tablecontent px-4 pt-3 pb-4"><div class="tablehead">Primary Processing</div><table>
+      <tr class="tablerow"><td class="tablecell caption">From</td><td class="tablecell caption">To</td><td class="tablecell caption">Flow</td><td class="tablecell caption quantity">Quantity [MT]</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Sawnwood | Softwood</td><td class="tablecell quantity">10.03</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Sawnwood | Hardwood</td><td class="tablecell quantity">1.208</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes | Softwood</td><td class="tablecell quantity">22.126</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes | Hardwood</td><td class="tablecell quantity">1.024</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Wood-based Panels Pr.</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.081</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.387</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.598</td></tr>
+      <tr class="tablerow"><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Construction Use</td><td class="tablecell">Simply Worked or Processed Wood</td><td class="tablecell quantity">0.868</td></tr>
+      <tr class="tablerow"><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Other Use</td><td class="tablecell">Simply Worked or Processed Wood</td><td class="tablecell quantity">0.108</td></tr>
+      <tr class="tablerow"><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Biomass Use</td><td class="tablecell">Simply Worked or Processed Wood</td><td class="tablecell quantity">0.108</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Charcoal Pr.</td><td class="tablecell">Biomass Use</td><td class="tablecell">Wood Charcoal</td><td class="tablecell quantity">0.205</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Charcoal Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.06</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Pellets Pr.</td><td class="tablecell">Biomass Use</td><td class="tablecell">Wood Pellets and Other Agglomerates</td><td class="tablecell quantity">0.763</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Pellets Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.596</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Particle Board Pr.</td><td class="tablecell">Wood Residues</td><td class="tablecell quantity">1.473</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">OSB Pr.</td><td class="tablecell">Wood Strands</td><td class="tablecell quantity">4.098</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Fibreboard Pr. | Hard</td><td class="tablecell">Wood Residues</td><td class="tablecell quantity">0.089</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Fibreboard Pr. | Medium</td><td class="tablecell">Wood Residues</td><td class="tablecell quantity">1.55</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Fibreboard Pr. | Soft</td><td class="tablecell">Wood Residues</td><td class="tablecell quantity">0.051</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Mechanical Pulp Pr.</td><td class="tablecell">Wood Chips</td><td class="tablecell quantity">4.297</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Mechanical Pulp Pr.</td><td class="tablecell">Wood Residues</td><td class="tablecell quantity">1.609</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Chemical Pulp Pr.</td><td class="tablecell">Wood Chips</td><td class="tablecell quantity">15.503</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Chemical Pulp Pr.</td><td class="tablecell">Wood Residues</td><td class="tablecell quantity">4.851</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Dissolving Pulp Pr.</td><td class="tablecell">Wood Chips</td><td class="tablecell quantity">1.972</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Dissolving Pulp Pr.</td><td class="tablecell">Wood Residues</td><td class="tablecell quantity">0.745</td></tr>
+      <tr class="tablerow"><td class="tablecell">Plywood Pr.</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Plywood</td><td class="tablecell quantity">1.83</td></tr>
+      <tr class="tablerow"><td class="tablecell">Plywood Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">1.116</td></tr>
+      <tr class="tablerow"><td class="tablecell">Particle Board Pr.</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Particle Board</td><td class="tablecell quantity">1.473</td></tr>
+      <tr class="tablerow"><td class="tablecell">OSB Pr.</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">OSB</td><td class="tablecell quantity">0.922</td></tr>
+      <tr class="tablerow"><td class="tablecell">OSB Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.064</td></tr>
+      <tr class="tablerow"><td class="tablecell">Fibreboard Pr. | Hard</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Fibreboard | Hard</td><td class="tablecell quantity">0.192</td></tr>
+      <tr class="tablerow"><td class="tablecell">Fibreboard Pr. | Medium</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Fibreboard | Medium</td><td class="tablecell quantity">1.438</td></tr>
+      <tr class="tablerow"><td class="tablecell">Fibreboard Pr. | Soft</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Fibreboard | Soft</td><td class="tablecell quantity">0.057</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Pulp</td><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Other Pulp</td><td class="tablecell quantity">2.727</td></tr>
+      <tr class="tablerow"><td class="tablecell">Mechanical Pulp Pr.</td><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Mechanical Pulp</td><td class="tablecell quantity">2.844</td></tr>
+      <tr class="tablerow"><td class="tablecell">Mechanical Pulp Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.539</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chemical Pulp Pr.</td><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Chemical Pulp</td><td class="tablecell quantity">5.052</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chemical Pulp Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">9.892</td></tr>
+      <tr class="tablerow"><td class="tablecell">Dissolving Pulp Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">2.131</td></tr>
+      <tr class="tablerow"><td class="tablecell">Dissolving Pulp Pr.</td><td class="tablecell">Chemical Use</td><td class="tablecell">Dissolving Pulp</td><td class="tablecell quantity">0.214</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recycling Pulp Pr.</td><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Recycling Pulp</td><td class="tablecell quantity">3.415</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recycling Pulp Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">1.208</td></tr>
+      <tr class="tablerow"><td class="tablecell">Waste Management</td><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Recoverable Wood Products</td><td class="tablecell quantity">2.576</td></tr>
+      <tr class="tablerow"><td class="tablecell">Waste Management</td><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">19.894</td></tr>
+      <tr class="tablerow"><td class="tablecell">Waste Management</td><td class="tablecell">Recycling Pulp Pr.</td><td class="tablecell">Recovered Paper</td><td class="tablecell quantity">3.709</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Primary Products</td><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Sawnwood | Softwood</td><td class="tablecell quantity">0.662</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Primary Products</td><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Sawnwood | Hardwood</td><td class="tablecell quantity">0.534</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Primary Products</td><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.119</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Primary Products</td><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Wood Chips and Particles</td><td class="tablecell quantity">1.097</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Primary Products</td><td class="tablecell">Wood Charcoal Pr.</td><td class="tablecell">Wood Charcoal</td><td class="tablecell quantity">0.181</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Primary Products</td><td class="tablecell">Wood Pellets Pr.</td><td class="tablecell">Wood Pellets and Other Agglomerates</td><td class="tablecell quantity">0.101</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Wood-based Panels and Pulps</td><td class="tablecell">Plywood Pr.</td><td class="tablecell">Plywood</td><td class="tablecell quantity">1.038</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Wood-based Panels and Pulps</td><td class="tablecell">Particle Board Pr.</td><td class="tablecell">Particle Board</td><td class="tablecell quantity">0.365</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Wood-based Panels and Pulps</td><td class="tablecell">OSB Pr.</td><td class="tablecell">OSB</td><td class="tablecell quantity">0.097</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Wood-based Panels and Pulps</td><td class="tablecell">Fibreboard Pr. | Hard</td><td class="tablecell">Fibreboard</td><td class="tablecell quantity">0.114</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Wood-based Panels and Pulps</td><td class="tablecell">Fibreboard Pr. | Medium</td><td class="tablecell">Fibreboard</td><td class="tablecell quantity">0.584</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Wood-based Panels and Pulps</td><td class="tablecell">Fibreboard Pr. | Soft</td><td class="tablecell">Fibreboard</td><td class="tablecell quantity">0.057</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Wood-based Panels and Pulps</td><td class="tablecell">Other Pulp</td><td class="tablecell">Other Pulp</td><td class="tablecell quantity">0.052</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Wood-based Panels and Pulps</td><td class="tablecell">Mechanical Pulp Pr.</td><td class="tablecell">Mechanical Pulp</td><td class="tablecell quantity">0.049</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Wood-based Panels and Pulps</td><td class="tablecell">Chemical Pulp Pr.</td><td class="tablecell">Chemical Pulp</td><td class="tablecell quantity">0.774</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Wood-based Panels and Pulps</td><td class="tablecell">Dissolving Pulp Pr.</td><td class="tablecell">Dissolving Pulp</td><td class="tablecell quantity">0.045</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Wood-based Panels and Pulps</td><td class="tablecell">Recycling Pulp Pr.</td><td class="tablecell">Recycling Pulp</td><td class="tablecell quantity">0.197</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Export | Primary Products</td><td class="tablecell">Sawnwood | Softwood</td><td class="tablecell quantity">12.51</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Export | Primary Products</td><td class="tablecell">Sawnwood | Hardwood</td><td class="tablecell quantity">0.303</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Export | Primary Products</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.368</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Export | Primary Products</td><td class="tablecell">Wood Chips and Particles</td><td class="tablecell quantity">5.522</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Charcoal Pr.</td><td class="tablecell">Export | Primary Products</td><td class="tablecell">Wood Charcoal</td><td class="tablecell quantity">0.049</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Pellets Pr.</td><td class="tablecell">Export | Primary Products</td><td class="tablecell">Wood Pellets and Other Agglomerates</td><td class="tablecell quantity">3.016</td></tr>
+      <tr class="tablerow"><td class="tablecell">Plywood Pr.</td><td class="tablecell">Export | Wood-based Panels and Pulps</td><td class="tablecell">Plywood</td><td class="tablecell quantity">0.334</td></tr>
+      <tr class="tablerow"><td class="tablecell">Particle Board Pr.</td><td class="tablecell">Export | Wood-based Panels and Pulps</td><td class="tablecell">Particle Board</td><td class="tablecell quantity">0.432</td></tr>
+      <tr class="tablerow"><td class="tablecell">OSB Pr.</td><td class="tablecell">Export | Wood-based Panels and Pulps</td><td class="tablecell">OSB</td><td class="tablecell quantity">3.108</td></tr>
+      <tr class="tablerow"><td class="tablecell">Fibreboard Pr. | Hard</td><td class="tablecell">Export | Wood-based Panels and Pulps</td><td class="tablecell">Fibreboard | Hard</td><td class="tablecell quantity">0.105</td></tr>
+      <tr class="tablerow"><td class="tablecell">Fibreboard Pr. | Medium</td><td class="tablecell">Export | Wood-based Panels and Pulps</td><td class="tablecell">Fibreboard | Medium</td><td class="tablecell quantity">0.769</td></tr>
+      <tr class="tablerow"><td class="tablecell">Fibreboard Pr. | Soft</td><td class="tablecell">Export | Wood-based Panels and Pulps</td><td class="tablecell">Fibreboard | Soft</td><td class="tablecell quantity">0.055</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Pulp</td><td class="tablecell">Export | Wood-based Panels and Pulps</td><td class="tablecell">Other Pulp</td><td class="tablecell quantity">0.054</td></tr>
+      <tr class="tablerow"><td class="tablecell">Mechanical Pulp Pr.</td><td class="tablecell">Export | Wood-based Panels and Pulps</td><td class="tablecell">Mechanical Pulp</td><td class="tablecell quantity">2.459</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chemical Pulp Pr.</td><td class="tablecell">Export | Wood-based Panels and Pulps</td><td class="tablecell">Chemical Pulp</td><td class="tablecell quantity">6.061</td></tr>
+      <tr class="tablerow"><td class="tablecell">Dissolving Pulp Pr.</td><td class="tablecell">Export | Wood-based Panels and Pulps</td><td class="tablecell">Dissolving Pulp</td><td class="tablecell quantity">0.329</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recycling Pulp Pr.</td><td class="tablecell">Export | Wood-based Panels and Pulps</td><td class="tablecell">Recycling Pulp</td><td class="tablecell quantity">0.056</td></tr>
+      </table></div></div>
+      
+      <div class="collapse" id="secondaryprocessing" data-bs-parent="#accordion"><div class="card card-block tablecontent px-4 pt-3 pb-4"><div class="tablehead">Secondary Processing</div><table>
+      <tr class="tablerow"><td class="tablecell caption">From</td><td class="tablecell caption">To</td><td class="tablecell caption">Flow</td><td class="tablecell caption quantity">Quantity [MT]</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Softwood</td><td class="tablecell">Further-processed Sawnwood Pr.</td><td class="tablecell">Sawnwood | Softwood</td><td class="tablecell quantity">1.78</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Softwood</td><td class="tablecell">Wooden Wrapping and Packaging Pr.</td><td class="tablecell">Sawnwood | Softwood</td><td class="tablecell quantity">1.907</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Softwood</td><td class="tablecell">Engineered Structural Timber Pr.</td><td class="tablecell">Sawnwood | Softwood</td><td class="tablecell quantity">0.429</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Softwood</td><td class="tablecell">Other Construction Timber Pr.</td><td class="tablecell">Sawnwood | Softwood</td><td class="tablecell quantity">4.716</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Softwood</td><td class="tablecell">Wooden Furniture Pr.</td><td class="tablecell">Sawnwood | Softwood</td><td class="tablecell quantity">0.395</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Softwood</td><td class="tablecell">Other Wood Products Pr.</td><td class="tablecell">Sawnwood | Softwood</td><td class="tablecell quantity">0.803</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Softwood</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes | Softwood</td><td class="tablecell quantity">22.126</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Hardwood</td><td class="tablecell">Further-processed Sawnwood Pr.</td><td class="tablecell">Sawnwood | Hardwood</td><td class="tablecell quantity">0.218</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Hardwood</td><td class="tablecell">Wooden Wrapping and Packaging Pr.</td><td class="tablecell">Sawnwood | Hardwood</td><td class="tablecell quantity">0.23</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Hardwood</td><td class="tablecell">Engineered Structural Timber Pr.</td><td class="tablecell">Sawnwood | Hardwood</td><td class="tablecell quantity">0.048</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Hardwood</td><td class="tablecell">Other Construction Timber Pr.</td><td class="tablecell">Sawnwood | Hardwood</td><td class="tablecell quantity">0.567</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Hardwood</td><td class="tablecell">Wooden Furniture Pr.</td><td class="tablecell">Sawnwood | Hardwood</td><td class="tablecell quantity">0.048</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Hardwood</td><td class="tablecell">Other Wood Products Pr.</td><td class="tablecell">Sawnwood | Hardwood</td><td class="tablecell quantity">0.097</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr. | Hardwood</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes | Hardwood</td><td class="tablecell quantity">1.024</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Wooden Wrapping and Packaging Pr.</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.078</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Engineered Structural Timber Pr.</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.039</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Other Construction Timber Pr.</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.116</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Wooden Furniture Pr.</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.077</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Other Wood Products Pr.</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.077</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.598</td></tr>
+      <tr class="tablerow"><td class="tablecell">Plywood Pr.</td><td class="tablecell">Wooden Wrapping and Packaging Pr.</td><td class="tablecell">Plywood</td><td class="tablecell quantity">0.146</td></tr>
+      <tr class="tablerow"><td class="tablecell">Plywood Pr.</td><td class="tablecell">Engineered Structural Timber Pr.</td><td class="tablecell">Plywood</td><td class="tablecell quantity">0.015</td></tr>
+      <tr class="tablerow"><td class="tablecell">Plywood Pr.</td><td class="tablecell">Other Construction Timber Pr.</td><td class="tablecell">Plywood</td><td class="tablecell quantity">0.727</td></tr>
+      <tr class="tablerow"><td class="tablecell">Plywood Pr.</td><td class="tablecell">Wooden Furniture Pr.</td><td class="tablecell">Plywood</td><td class="tablecell quantity">0.488</td></tr>
+      <tr class="tablerow"><td class="tablecell">Plywood Pr.</td><td class="tablecell">Other Wood Products Pr.</td><td class="tablecell">Plywood</td><td class="tablecell quantity">0.454</td></tr>
+      <tr class="tablerow"><td class="tablecell">Plywood Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">1.116</td></tr>
+      <tr class="tablerow"><td class="tablecell">Particle Board Pr.</td><td class="tablecell">Wooden Wrapping and Packaging Pr.</td><td class="tablecell">Particle Board</td><td class="tablecell quantity">0.03</td></tr>
+      <tr class="tablerow"><td class="tablecell">Particle Board Pr.</td><td class="tablecell">Other Construction Timber Pr.</td><td class="tablecell">Particle Board</td><td class="tablecell quantity">0.397</td></tr>
+      <tr class="tablerow"><td class="tablecell">Particle Board Pr.</td><td class="tablecell">Wooden Furniture Pr.</td><td class="tablecell">Particle Board</td><td class="tablecell quantity">0.972</td></tr>
+      <tr class="tablerow"><td class="tablecell">Particle Board Pr.</td><td class="tablecell">Other Wood Products Pr.</td><td class="tablecell">Particle Board</td><td class="tablecell quantity">0.074</td></tr>
+      <tr class="tablerow"><td class="tablecell">OSB Pr.</td><td class="tablecell">Wooden Wrapping and Packaging Pr.</td><td class="tablecell">OSB</td><td class="tablecell quantity">0.055</td></tr>
+      <tr class="tablerow"><td class="tablecell">OSB Pr.</td><td class="tablecell">Engineered Structural Timber Pr.</td><td class="tablecell">OSB</td><td class="tablecell quantity">0.007</td></tr>
+      <tr class="tablerow"><td class="tablecell">OSB Pr.</td><td class="tablecell">Other Construction Timber Pr.</td><td class="tablecell">OSB</td><td class="tablecell quantity">0.777</td></tr>
+      <tr class="tablerow"><td class="tablecell">OSB Pr.</td><td class="tablecell">Wooden Furniture Pr.</td><td class="tablecell">OSB</td><td class="tablecell quantity">0.028</td></tr>
+      <tr class="tablerow"><td class="tablecell">OSB Pr.</td><td class="tablecell">Other Wood Products Pr.</td><td class="tablecell">OSB</td><td class="tablecell quantity">0.055</td></tr>
+      <tr class="tablerow"><td class="tablecell">OSB Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.064</td></tr>
+      <tr class="tablerow"><td class="tablecell">Fibreboard Pr.</td><td class="tablecell">Wooden Wrapping and Packaging Pr.</td><td class="tablecell">Fibreboard</td><td class="tablecell quantity">0.134</td></tr>
+      <tr class="tablerow"><td class="tablecell">Fibreboard Pr.</td><td class="tablecell">Other Construction Timber Pr.</td><td class="tablecell">Fibreboard</td><td class="tablecell quantity">0.506</td></tr>
+      <tr class="tablerow"><td class="tablecell">Fibreboard Pr.</td><td class="tablecell">Wooden Furniture Pr.</td><td class="tablecell">Fibreboard</td><td class="tablecell quantity">0.85</td></tr>
+      <tr class="tablerow"><td class="tablecell">Fibreboard Pr.</td><td class="tablecell">Other Wood Products Pr.</td><td class="tablecell">Fibreboard</td><td class="tablecell quantity">0.197</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Pulp</td><td class="tablecell">Newsprint Pr.</td><td class="tablecell">Other Pulp</td><td class="tablecell quantity">0.482</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Pulp</td><td class="tablecell">Printing+Writing Pr.</td><td class="tablecell">Other Pulp</td><td class="tablecell quantity">0.965</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Pulp</td><td class="tablecell">Sanitary and Household Papers Pr.</td><td class="tablecell">Other Pulp</td><td class="tablecell quantity">0.08</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Pulp</td><td class="tablecell">Packaging Materials Pr.</td><td class="tablecell">Other Pulp</td><td class="tablecell quantity">1.122</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Pulp</td><td class="tablecell">Other Paper and Paperboard Pr.</td><td class="tablecell">Other Pulp</td><td class="tablecell quantity">0.078</td></tr>
+      <tr class="tablerow"><td class="tablecell">Mechanical Pulp Pr.</td><td class="tablecell">Newsprint Pr.</td><td class="tablecell">Mechanical Pulp</td><td class="tablecell quantity">0.555</td></tr>
+      <tr class="tablerow"><td class="tablecell">Mechanical Pulp Pr.</td><td class="tablecell">Printing+Writing Pr.</td><td class="tablecell">Mechanical Pulp</td><td class="tablecell quantity">0.083</td></tr>
+      <tr class="tablerow"><td class="tablecell">Mechanical Pulp Pr.</td><td class="tablecell">Sanitary and Household Papers Pr.</td><td class="tablecell">Mechanical Pulp</td><td class="tablecell quantity">0.082</td></tr>
+      <tr class="tablerow"><td class="tablecell">Mechanical Pulp Pr.</td><td class="tablecell">Packaging Materials Pr.</td><td class="tablecell">Mechanical Pulp</td><td class="tablecell quantity">2.041</td></tr>
+      <tr class="tablerow"><td class="tablecell">Mechanical Pulp Pr.</td><td class="tablecell">Other Paper and Paperboard Pr.</td><td class="tablecell">Mechanical Pulp</td><td class="tablecell quantity">0.083</td></tr>
+      <tr class="tablerow"><td class="tablecell">Mechanical Pulp Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.539</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chemical Pulp Pr.</td><td class="tablecell">Newsprint Pr.</td><td class="tablecell">Chemical Pulp</td><td class="tablecell quantity">0.084</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chemical Pulp Pr.</td><td class="tablecell">Printing+Writing Pr.</td><td class="tablecell">Chemical Pulp</td><td class="tablecell quantity">1.525</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chemical Pulp Pr.</td><td class="tablecell">Sanitary and Household Papers Pr.</td><td class="tablecell">Chemical Pulp</td><td class="tablecell quantity">1.171</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chemical Pulp Pr.</td><td class="tablecell">Packaging Materials Pr.</td><td class="tablecell">Chemical Pulp</td><td class="tablecell quantity">2.189</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chemical Pulp Pr.</td><td class="tablecell">Other Paper and Paperboard Pr.</td><td class="tablecell">Chemical Pulp</td><td class="tablecell quantity">0.083</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chemical Pulp Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">9.892</td></tr>
+      <tr class="tablerow"><td class="tablecell">Dissolving Pulp Pr.</td><td class="tablecell">Chemical Use</td><td class="tablecell">Dissolving Pulp</td><td class="tablecell quantity">0.214</td></tr>
+      <tr class="tablerow"><td class="tablecell">Dissolving Pulp Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">2.131</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recycling Pulp Pr.</td><td class="tablecell">Newsprint Pr.</td><td class="tablecell">Recycling Pulp</td><td class="tablecell quantity">1.102</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recycling Pulp Pr.</td><td class="tablecell">Printing+Writing Pr.</td><td class="tablecell">Recycling Pulp</td><td class="tablecell quantity">0.438</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recycling Pulp Pr.</td><td class="tablecell">Sanitary and Household Papers Pr.</td><td class="tablecell">Recycling Pulp</td><td class="tablecell quantity">0.805</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recycling Pulp Pr.</td><td class="tablecell">Packaging Materials Pr.</td><td class="tablecell">Recycling Pulp</td><td class="tablecell quantity">0.992</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recycling Pulp Pr.</td><td class="tablecell">Other Paper and Paperboard Pr.</td><td class="tablecell">Recycling Pulp</td><td class="tablecell quantity">0.078</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recycling Pulp Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">1.208</td></tr>
+      <tr class="tablerow"><td class="tablecell">Further-processed Sawnwood Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.254</td></tr>
+      <tr class="tablerow"><td class="tablecell">Further-processed Sawnwood Pr.</td><td class="tablecell">Packaging Use</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">0.356</td></tr>
+      <tr class="tablerow"><td class="tablecell">Further-processed Sawnwood Pr.</td><td class="tablecell">Construction Use</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">0.715</td></tr>
+      <tr class="tablerow"><td class="tablecell">Further-processed Sawnwood Pr.</td><td class="tablecell">Furniture Use</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">0.356</td></tr>
+      <tr class="tablerow"><td class="tablecell">Further-processed Sawnwood Pr.</td><td class="tablecell">Other Use</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">0.356</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wooden Wrapping and Packaging Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.29</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wooden Wrapping and Packaging Pr.</td><td class="tablecell">Packaging Use</td><td class="tablecell">Wooden Wrapping and Packaging Materials</td><td class="tablecell quantity">2.229</td></tr>
+      <tr class="tablerow"><td class="tablecell">Engineered Structural Timber Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.12</td></tr>
+      <tr class="tablerow"><td class="tablecell">Engineered Structural Timber Pr.</td><td class="tablecell">Construction Use</td><td class="tablecell">Engineered Structural Timber Products</td><td class="tablecell quantity">0.427</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Construction Timber Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.699</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Construction Timber Pr.</td><td class="tablecell">Construction Use</td><td class="tablecell">Other Construction Timber Products</td><td class="tablecell quantity">6.873</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wooden Furniture Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.313</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wooden Furniture Pr.</td><td class="tablecell">Furniture Use</td><td class="tablecell">Wooden Furniture</td><td class="tablecell quantity">2.52</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Wood Products Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.237</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Wood Products Pr.</td><td class="tablecell">Other Use</td><td class="tablecell">Other Wood Products</td><td class="tablecell quantity">1.484</td></tr>
+      <tr class="tablerow"><td class="tablecell">Newsprint Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.15</td></tr>
+      <tr class="tablerow"><td class="tablecell">Newsprint Pr.</td><td class="tablecell">Paper Use</td><td class="tablecell">Newsprint</td><td class="tablecell quantity">0.132</td></tr>
+      <tr class="tablerow"><td class="tablecell">Printing+Writing Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.159</td></tr>
+      <tr class="tablerow"><td class="tablecell">Printing+Writing Pr.</td><td class="tablecell">Paper Use</td><td class="tablecell">Printing+Writing</td><td class="tablecell quantity">1.64</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sanitary and Household Papers Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.161</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sanitary and Household Papers Pr.</td><td class="tablecell">Paper Use</td><td class="tablecell">Sanitary and Household Papers</td><td class="tablecell quantity">1.86</td></tr>
+      <tr class="tablerow"><td class="tablecell">Packaging Materials Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.159</td></tr>
+      <tr class="tablerow"><td class="tablecell">Packaging Materials Pr.</td><td class="tablecell">Packaging Use</td><td class="tablecell">Packaging Materials</td><td class="tablecell quantity">5.2</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Paper and Paperboard Pr.</td><td class="tablecell">Waste Management</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.064</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Paper and Paperboard Pr.</td><td class="tablecell">Paper Use</td><td class="tablecell">Other Paper and Paperboard</td><td class="tablecell quantity">0.028</td></tr>
+      <tr class="tablerow"><td class="tablecell">Waste Management</td><td class="tablecell">Recycling Pulp Pr.</td><td class="tablecell">Recovered Paper</td><td class="tablecell quantity">3.709</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Secondary Products</td><td class="tablecell">Further-processed Sawnwood Pr.</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">1.51</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Secondary Products</td><td class="tablecell">Wooden Wrapping and Packaging Pr.</td><td class="tablecell">Wooden Wrapping and Packaging Materials</td><td class="tablecell quantity">1.474</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Secondary Products</td><td class="tablecell">Engineered Structural Timber Pr.</td><td class="tablecell">Engineered Structural Timber Products</td><td class="tablecell quantity">0.085</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Secondary Products</td><td class="tablecell">Other Construction Timber Pr.</td><td class="tablecell">Other Construction Timber Products</td><td class="tablecell quantity">1.738</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Secondary Products</td><td class="tablecell">Wooden Furniture Pr.</td><td class="tablecell">Wooden Furniture</td><td class="tablecell quantity">1.517</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Secondary Products</td><td class="tablecell">Other Wood Products Pr.</td><td class="tablecell">Other Wood Products</td><td class="tablecell quantity">1.443</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Secondary Products</td><td class="tablecell">Newsprint Pr.</td><td class="tablecell">Newsprint</td><td class="tablecell quantity">0.107</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Secondary Products</td><td class="tablecell">Printing+Writing Pr.</td><td class="tablecell">Printing+Writing</td><td class="tablecell quantity">0.863</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Secondary Products</td><td class="tablecell">Sanitary and Household Papers Pr.</td><td class="tablecell">Sanitary and Household Papers</td><td class="tablecell quantity">0.198</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Secondary Products</td><td class="tablecell">Packaging Materials Pr.</td><td class="tablecell">Packaging Materials</td><td class="tablecell quantity">2.328</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | Secondary Products</td><td class="tablecell">Other Paper and Paperboard Pr.</td><td class="tablecell">Other Paper and Paperboard</td><td class="tablecell quantity">0.057</td></tr>
+      <tr class="tablerow"><td class="tablecell">Further-processed Sawnwood Pr.</td><td class="tablecell">Export | Secondary Products</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">1.197</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wooden Wrapping and Packaging Pr.</td><td class="tablecell">Export | Secondary Products</td><td class="tablecell">Wooden Wrapping and Packaging Materials</td><td class="tablecell quantity">1.212</td></tr>
+      <tr class="tablerow"><td class="tablecell">Engineered Structural Timber Pr.</td><td class="tablecell">Export | Secondary Products</td><td class="tablecell">Engineered Structural Timber Products</td><td class="tablecell quantity">0.079</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Construction Timber Pr.</td><td class="tablecell">Export | Secondary Products</td><td class="tablecell">Other Construction Timber Products</td><td class="tablecell quantity">1.242</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wooden Furniture Pr.</td><td class="tablecell">Export | Secondary Products</td><td class="tablecell">Wooden Furniture</td><td class="tablecell quantity">1.206</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Wood Products Pr.</td><td class="tablecell">Export | Secondary Products</td><td class="tablecell">Other Wood Products</td><td class="tablecell quantity">1.212</td></tr>
+      <tr class="tablerow"><td class="tablecell">Newsprint Pr.</td><td class="tablecell">Export | Secondary Products</td><td class="tablecell">Newsprint</td><td class="tablecell quantity">1.98</td></tr>
+      <tr class="tablerow"><td class="tablecell">Printing+Writing Pr.</td><td class="tablecell">Export | Secondary Products</td><td class="tablecell">Printing+Writing</td><td class="tablecell quantity">1.901</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sanitary and Household Papers Pr.</td><td class="tablecell">Export | Secondary Products</td><td class="tablecell">Sanitary and Household Papers</td><td class="tablecell quantity">0.116</td></tr>
+      <tr class="tablerow"><td class="tablecell">Packaging Materials Pr.</td><td class="tablecell">Export | Secondary Products</td><td class="tablecell">Packaging Materials</td><td class="tablecell quantity">3.14</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Paper and Paperboard Pr.</td><td class="tablecell">Export | Secondary Products</td><td class="tablecell">Other Paper and Paperboard</td><td class="tablecell quantity">0.166</td></tr>
+      </table></div></div>
+      
+      <div class="collapse" id="useandeol" data-bs-parent="#accordion"><div class="card card-block tablecontent px-4 pt-3 pb-4"><div class="tablehead">Use and E-o-L</div><table>
+      <tr class="tablerow"><td class="tablecell caption">From</td><td class="tablecell caption">To</td><td class="tablecell caption">Flow</td><td class="tablecell caption quantity">Quantity [MT]</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Biomass Use</td><td class="tablecell">Wood Fuel | Softwood</td><td class="tablecell quantity">0.22</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Biomass Use</td><td class="tablecell">Wood Fuel | Hardwood</td><td class="tablecell quantity">2.808</td></tr>
+      <tr class="tablerow"><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Construction Use</td><td class="tablecell">Simply Worked or Processed Wood</td><td class="tablecell quantity">0.868</td></tr>
+      <tr class="tablerow"><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Other Use</td><td class="tablecell">Simply Worked or Processed Wood</td><td class="tablecell quantity">0.108</td></tr>
+      <tr class="tablerow"><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Biomass Use</td><td class="tablecell">Simply Worked or Processed Wood</td><td class="tablecell quantity">0.108</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Charcoal Pr.</td><td class="tablecell">Biomass Use</td><td class="tablecell">Wood Charcoal</td><td class="tablecell quantity">0.205</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Pellets Pr.</td><td class="tablecell">Biomass Use</td><td class="tablecell">Wood Pellets and Other Agglomerates</td><td class="tablecell quantity">0.763</td></tr>
+      <tr class="tablerow"><td class="tablecell">Pulp Pr.</td><td class="tablecell">Chemical Use</td><td class="tablecell">Wood Pulp</td><td class="tablecell quantity">0.214</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Construction Use</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">0.715</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Construction Use</td><td class="tablecell">Engineered Structural Timber Products</td><td class="tablecell quantity">0.427</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Construction Use</td><td class="tablecell">Other Construction Timber Products</td><td class="tablecell quantity">6.873</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Furniture Use</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">0.356</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Furniture Use</td><td class="tablecell">Wooden Furniture</td><td class="tablecell quantity">2.52</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Packaging Use</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">0.356</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Packaging Use</td><td class="tablecell">Wooden Wrapping and Packaging Materials</td><td class="tablecell quantity">2.229</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Other Use</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">0.356</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Other Use</td><td class="tablecell">Other Wood Products</td><td class="tablecell quantity">1.484</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Production Waste</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">1.913</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Paper Use</td><td class="tablecell">Newsprint</td><td class="tablecell quantity">0.132</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Paper Use</td><td class="tablecell">Printing+Writing</td><td class="tablecell quantity">1.64</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Paper Use</td><td class="tablecell">Sanitary and Household Papers</td><td class="tablecell quantity">1.86</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Paper Use</td><td class="tablecell">Other Paper and Paperboard</td><td class="tablecell quantity">0.028</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Packaging Use</td><td class="tablecell">Packaging Materials</td><td class="tablecell quantity">5.2</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Production Waste</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.693</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper Use</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">3.42</td></tr>
+      <tr class="tablerow"><td class="tablecell">Packaging Use</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">2.426</td></tr>
+      <tr class="tablerow"><td class="tablecell">Packaging Use</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">4.783</td></tr>
+      <tr class="tablerow"><td class="tablecell">Construction Use</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">1.658</td></tr>
+      <tr class="tablerow"><td class="tablecell">Furniture Use</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">1.015</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Use</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.991</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Energy Recovery</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.463</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Recoverable Wood Products</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">2.566</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Composting</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.081</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Backfilling</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.082</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Incineration</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.381</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Landfill</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">2.453</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Open Dump</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.081</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Energy Recovery</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">0.081</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Recovered Paper</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">5.514</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Composting</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">0.079</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Backfilling</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.081</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Incineration</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">0.35</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Landfill</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">1.314</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Open Dump</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">0.079</td></tr>
+      <tr class="tablerow"><td class="tablecell">Production Waste</td><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">19.894</td></tr>
+      <tr class="tablerow"><td class="tablecell">Production Waste</td><td class="tablecell">Biomass Use</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">15.711</td></tr>
+      <tr class="tablerow"><td class="tablecell">Production Waste</td><td class="tablecell">Landfill</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.807</td></tr>
+      <tr class="tablerow"><td class="tablecell">Production Waste</td><td class="tablecell">Composting</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.418</td></tr>
+      <tr class="tablerow"><td class="tablecell">Production Waste</td><td class="tablecell">Backfilling</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.418</td></tr>
+      <tr class="tablerow"><td class="tablecell">Production Waste</td><td class="tablecell">Pulp Pr.</td><td class="tablecell">Paper Production Waste</td><td class="tablecell quantity">0.775</td></tr>
+      <tr class="tablerow"><td class="tablecell">Energy Recovery</td><td class="tablecell">Biomass Use</td><td class="tablecell">E-o-L Waste</td><td class="tablecell quantity">0.507</td></tr>
+      <tr class="tablerow"><td class="tablecell">Backfilling</td><td class="tablecell">Construction Use</td><td class="tablecell">Backfilling</td><td class="tablecell quantity">0.082</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recoverable Wood Products</td><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Recoverable Wood Products</td><td class="tablecell quantity">2.576</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recovered Paper</td><td class="tablecell">Pulp Pr.</td><td class="tablecell">Recovered Paper</td><td class="tablecell quantity">3.709</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import | E-o-L</td><td class="tablecell">Recovered Paper</td><td class="tablecell">Recovered Paper</td><td class="tablecell quantity">0.826</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recovered Paper</td><td class="tablecell">Export | E-o-L</td><td class="tablecell">Recovered Paper</td><td class="tablecell quantity">2.647</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Export | E-o-L</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">0.796</td></tr>
+      </table></div></div>
+      
+      <div class="collapse" id="allflows" data-bs-parent="#accordion"><div class="card card-block tablecontent px-4 pt-3 pb-4"><div class="tablehead">All Flows</div><table>
+      <tr class="tablerow"><td class="tablecell caption">From</td><td class="tablecell caption">To</td><td class="tablecell caption">Flow</td><td class="tablecell caption quantity">Quantity [MT]</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Sawlogs and Veneer Logs | Softwood</td><td class="tablecell quantity">44.033</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Sawlogs and Veneer Logs | Hardwood</td><td class="tablecell quantity">1.953</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Sawlogs and Veneer Logs | Softwood</td><td class="tablecell quantity">1.035</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Sawlogs and Veneer Logs | Softwood</td><td class="tablecell quantity">0.14</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Wood-based Panels Pr.</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Softwood</td><td class="tablecell quantity">0.828</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Wood-based Panels Pr.</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Hardwood</td><td class="tablecell quantity">1.359</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Softwood</td><td class="tablecell quantity">8.346</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Hardwood</td><td class="tablecell quantity">13.751</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Wood Charcoal Pr.</td><td class="tablecell">Wood Fuel</td><td class="tablecell quantity">0.152</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Other Industrial Roundwood | Softwood</td><td class="tablecell quantity">0.452</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Other Industrial Roundwood | Hardwood</td><td class="tablecell quantity">1.14</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Biomass Use</td><td class="tablecell">Wood Fuel | Softwood</td><td class="tablecell quantity">0.22</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Biomass Use</td><td class="tablecell">Wood Fuel | Hardwood</td><td class="tablecell quantity">2.808</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Sawnwood | Softwood</td><td class="tablecell quantity">10.03</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Sawnwood | Hardwood</td><td class="tablecell quantity">1.208</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Production Waste</td><td class="tablecell">Production Wastes | Softwood</td><td class="tablecell quantity">22.126</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Production Waste</td><td class="tablecell">Production Wastes | Hardwood</td><td class="tablecell quantity">1.024</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Wood-based Panels Pr.</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.081</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.387</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Production Waste</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.598</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Wood-based Panels Pr.</td><td class="tablecell">Wood Chips and Particles</td><td class="tablecell quantity">7.261</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Pulp Pr.</td><td class="tablecell">Wood Chips and Particles</td><td class="tablecell quantity">28.977</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Wood Pellets Pr.</td><td class="tablecell">Wood Chips and Particles</td><td class="tablecell quantity">4.125</td></tr>
+      <tr class="tablerow"><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Construction Use</td><td class="tablecell">Simply Worked or Processed Wood</td><td class="tablecell quantity">0.868</td></tr>
+      <tr class="tablerow"><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Other Use</td><td class="tablecell">Simply Worked or Processed Wood</td><td class="tablecell quantity">0.108</td></tr>
+      <tr class="tablerow"><td class="tablecell">Simply Processed Wood Pr.</td><td class="tablecell">Biomass Use</td><td class="tablecell">Simply Worked or Processed Wood</td><td class="tablecell quantity">0.108</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Charcoal Pr.</td><td class="tablecell">Biomass Use</td><td class="tablecell">Wood Charcoal</td><td class="tablecell quantity">0.205</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Charcoal Pr.</td><td class="tablecell">Production Waste</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.06</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood-based Panels Pr.</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Wood-based Panels</td><td class="tablecell quantity">5.912</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood-based Panels Pr.</td><td class="tablecell">Production Waste</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">1.18</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Pulp</td><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Other Pulp</td><td class="tablecell quantity">2.727</td></tr>
+      <tr class="tablerow"><td class="tablecell">Pulp Pr.</td><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Wood Pulp</td><td class="tablecell quantity">11.311</td></tr>
+      <tr class="tablerow"><td class="tablecell">Pulp Pr.</td><td class="tablecell">Production Waste</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">13.77</td></tr>
+      <tr class="tablerow"><td class="tablecell">Pulp Pr.</td><td class="tablecell">Chemical Use</td><td class="tablecell">Wood Pulp</td><td class="tablecell quantity">0.214</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Pellets Pr.</td><td class="tablecell">Biomass Use</td><td class="tablecell">Wood Pellets and Other Agglomerates</td><td class="tablecell quantity">0.763</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Pellets Pr.</td><td class="tablecell">Production Waste</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.596</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Construction Use</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">0.715</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Construction Use</td><td class="tablecell">Engineered Structural Timber Products</td><td class="tablecell quantity">0.427</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Construction Use</td><td class="tablecell">Other Construction Timber Products</td><td class="tablecell quantity">6.873</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Furniture Use</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">0.356</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Furniture Use</td><td class="tablecell">Wooden Furniture</td><td class="tablecell quantity">2.52</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Packaging Use</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">0.356</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Packaging Use</td><td class="tablecell">Wooden Wrapping and Packaging Materials</td><td class="tablecell quantity">2.229</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Other Use</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">0.356</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Other Use</td><td class="tablecell">Other Wood Products</td><td class="tablecell quantity">1.484</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Production Waste</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">1.913</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Paper Use</td><td class="tablecell">Newsprint</td><td class="tablecell quantity">0.132</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Paper Use</td><td class="tablecell">Printing+Writing</td><td class="tablecell quantity">1.64</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Paper Use</td><td class="tablecell">Sanitary and Household Papers</td><td class="tablecell quantity">1.86</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Paper Use</td><td class="tablecell">Other Paper and Paperboard</td><td class="tablecell quantity">0.028</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Packaging Use</td><td class="tablecell">Packaging Materials</td><td class="tablecell quantity">5.2</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Production Waste</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.693</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper Use</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">3.42</td></tr>
+      <tr class="tablerow"><td class="tablecell">Packaging Use</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">2.426</td></tr>
+      <tr class="tablerow"><td class="tablecell">Packaging Use</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">4.783</td></tr>
+      <tr class="tablerow"><td class="tablecell">Construction Use</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">1.658</td></tr>
+      <tr class="tablerow"><td class="tablecell">Furniture Use</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">1.015</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Use</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.991</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Energy Recovery</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.463</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Recoverable Wood Products</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">2.566</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Composting</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.081</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Backfilling</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.082</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Incineration</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.381</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Landfill</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">2.453</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell">Open Dump</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.081</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Energy Recovery</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">0.081</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Recovered Paper</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">5.514</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Composting</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">0.079</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Backfilling</td><td class="tablecell">E-o-L Wood Waste</td><td class="tablecell quantity">0.081</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Incineration</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">0.35</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Landfill</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">1.314</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Open Dump</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">0.079</td></tr>
+      <tr class="tablerow"><td class="tablecell">Production Waste</td><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">19.894</td></tr>
+      <tr class="tablerow"><td class="tablecell">Production Waste</td><td class="tablecell">Biomass Use</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">15.711</td></tr>
+      <tr class="tablerow"><td class="tablecell">Production Waste</td><td class="tablecell">Landfill</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.807</td></tr>
+      <tr class="tablerow"><td class="tablecell">Production Waste</td><td class="tablecell">Composting</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.418</td></tr>
+      <tr class="tablerow"><td class="tablecell">Production Waste</td><td class="tablecell">Backfilling</td><td class="tablecell">Production Wastes</td><td class="tablecell quantity">0.418</td></tr>
+      <tr class="tablerow"><td class="tablecell">Production Waste</td><td class="tablecell">Pulp Pr.</td><td class="tablecell">Paper Production Waste</td><td class="tablecell quantity">0.775</td></tr>
+      <tr class="tablerow"><td class="tablecell">Energy Recovery</td><td class="tablecell">Biomass Use</td><td class="tablecell">E-o-L Waste</td><td class="tablecell quantity">0.507</td></tr>
+      <tr class="tablerow"><td class="tablecell">Backfilling</td><td class="tablecell">Construction Use</td><td class="tablecell">Backfilling</td><td class="tablecell quantity">0.082</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recoverable Wood Products</td><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Recoverable Wood Products</td><td class="tablecell quantity">2.576</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recovered Paper</td><td class="tablecell">Pulp Pr.</td><td class="tablecell">Recovered Paper</td><td class="tablecell quantity">3.709</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Harvesting</td><td class="tablecell">Wood Fuel | Softwood</td><td class="tablecell quantity">0.048</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Harvesting</td><td class="tablecell">Wood Fuel | Hardwood</td><td class="tablecell quantity">0.049</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Harvesting</td><td class="tablecell">Sawlogs and Veneer Logs | Softwood</td><td class="tablecell quantity">1.268</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Harvesting</td><td class="tablecell">Sawlogs and Veneer Logs | Hardwood</td><td class="tablecell quantity">0.306</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Harvesting</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Softwood</td><td class="tablecell quantity">0.12</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Harvesting</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Hardwood</td><td class="tablecell quantity">0.351</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Harvesting</td><td class="tablecell">Other Industrial Roundwood | Softwood</td><td class="tablecell quantity">0.014</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Harvesting</td><td class="tablecell">Other Industrial Roundwood | Hardwood</td><td class="tablecell quantity">0.039</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Sawnwood | Softwood</td><td class="tablecell quantity">0.662</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Sawnwood | Hardwood</td><td class="tablecell quantity">0.534</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.119</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Wood Chips and Particles</td><td class="tablecell quantity">1.097</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Wood Charcoal Pr.</td><td class="tablecell">Wood Charcoal</td><td class="tablecell quantity">0.181</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Wood-based Panels Pr.</td><td class="tablecell">Wood-based Panels</td><td class="tablecell quantity">2.255</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Other Pulp</td><td class="tablecell">Other Pulp</td><td class="tablecell quantity">0.052</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Pulp Pr.</td><td class="tablecell">Wood Pulp</td><td class="tablecell quantity">1.065</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Wood Pellets Pr.</td><td class="tablecell">Wood Pellets and Other Agglomerates</td><td class="tablecell quantity">0.101</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">1.51</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Wooden Wrapping and Packaging Materials</td><td class="tablecell quantity">1.474</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Engineered Structural Timber Products</td><td class="tablecell quantity">0.085</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Other Construction Timber Products</td><td class="tablecell quantity">1.738</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Wooden Furniture</td><td class="tablecell quantity">1.517</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Other Wood Products</td><td class="tablecell quantity">1.443</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Newsprint</td><td class="tablecell quantity">0.107</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Printing+Writing</td><td class="tablecell quantity">0.863</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Sanitary and Household Papers</td><td class="tablecell quantity">0.198</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Packaging Materials</td><td class="tablecell quantity">2.328</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Other Paper and Paperboard</td><td class="tablecell quantity">0.057</td></tr>
+      <tr class="tablerow"><td class="tablecell">Import</td><td class="tablecell">Recovered Paper</td><td class="tablecell">Recovered Paper</td><td class="tablecell quantity">0.826</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export</td><td class="tablecell">Wood Fuel | Softwood</td><td class="tablecell quantity">0.061</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export</td><td class="tablecell">Wood Fuel | Hardwood</td><td class="tablecell quantity">0.053</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export</td><td class="tablecell">Sawlogs and Veneer Logs | Softwood</td><td class="tablecell quantity">11.434</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export</td><td class="tablecell">Sawlogs and Veneer Logs | Hardwood</td><td class="tablecell quantity">0.208</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Softwood</td><td class="tablecell quantity">1.085</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export</td><td class="tablecell">Pulpwood and Roundwood for Wood-based Panels | Hardwood</td><td class="tablecell quantity">0.238</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export</td><td class="tablecell">Other Industrial Roundwood | Softwood</td><td class="tablecell quantity">0.126</td></tr>
+      <tr class="tablerow"><td class="tablecell">Harvesting</td><td class="tablecell">Export</td><td class="tablecell">Other Industrial Roundwood | Hardwood</td><td class="tablecell quantity">0.027</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Export</td><td class="tablecell">Sawnwood | Softwood</td><td class="tablecell quantity">12.51</td></tr>
+      <tr class="tablerow"><td class="tablecell">Sawnwood Pr.</td><td class="tablecell">Export</td><td class="tablecell">Sawnwood | Hardwood</td><td class="tablecell quantity">0.303</td></tr>
+      <tr class="tablerow"><td class="tablecell">Veneer Sheets Pr.</td><td class="tablecell">Export</td><td class="tablecell">Veneer Sheets</td><td class="tablecell quantity">0.368</td></tr>
+      <tr class="tablerow"><td class="tablecell">Chips and Particles Pr.</td><td class="tablecell">Export</td><td class="tablecell">Wood Chips and Particles</td><td class="tablecell quantity">5.522</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Charcoal Pr.</td><td class="tablecell">Export</td><td class="tablecell">Wood Charcoal</td><td class="tablecell quantity">0.049</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood-based Panels Pr.</td><td class="tablecell">Export</td><td class="tablecell">Wood-based Panels</td><td class="tablecell quantity">4.803</td></tr>
+      <tr class="tablerow"><td class="tablecell">Other Pulp</td><td class="tablecell">Export</td><td class="tablecell">Other Pulp</td><td class="tablecell quantity">0.054</td></tr>
+      <tr class="tablerow"><td class="tablecell">Pulp Pr.</td><td class="tablecell">Export</td><td class="tablecell">Wood Pulp</td><td class="tablecell quantity">8.905</td></tr>
+      <tr class="tablerow"><td class="tablecell">Wood Pellets Pr.</td><td class="tablecell">Export</td><td class="tablecell">Wood Pellets and Other Agglomerates</td><td class="tablecell quantity">3.016</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Export</td><td class="tablecell">Further-processed Sawnwood</td><td class="tablecell quantity">1.197</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Export</td><td class="tablecell">Wooden Wrapping and Packaging Materials</td><td class="tablecell quantity">1.212</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Export</td><td class="tablecell">Engineered Structural Timber Products</td><td class="tablecell quantity">0.079</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Export</td><td class="tablecell">Other Construction Timber Products</td><td class="tablecell quantity">1.242</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Export</td><td class="tablecell">Wooden Furniture</td><td class="tablecell quantity">1.206</td></tr>
+      <tr class="tablerow"><td class="tablecell">Secondary Wood Pr.</td><td class="tablecell">Export</td><td class="tablecell">Other Wood Products</td><td class="tablecell quantity">1.212</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Export</td><td class="tablecell">Newsprint</td><td class="tablecell quantity">1.98</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Export</td><td class="tablecell">Printing+Writing</td><td class="tablecell quantity">1.901</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Export</td><td class="tablecell">Sanitary and Household Papers</td><td class="tablecell quantity">0.116</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Export</td><td class="tablecell">Packaging Materials</td><td class="tablecell quantity">3.14</td></tr>
+      <tr class="tablerow"><td class="tablecell">Paper and Paperboard Pr.</td><td class="tablecell">Export</td><td class="tablecell">Other Paper and Paperboard</td><td class="tablecell quantity">0.166</td></tr>
+      <tr class="tablerow"><td class="tablecell">Recovered Paper</td><td class="tablecell">Export</td><td class="tablecell">Recovered Paper</td><td class="tablecell quantity">2.647</td></tr>
+      <tr class="tablerow"><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell">Export</td><td class="tablecell">E-o-L Paper and Paperboard Waste</td><td class="tablecell quantity">0.796</td></tr>
+      </table></div></div>
+      
+      
+
+
+      

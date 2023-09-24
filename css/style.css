@@ -6,6 +6,32 @@
     box-sizing: border-box;
 }
 
+
+/* width */
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #e2e2e2;
+    border-radius: 10px;  
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #757575;
+    border-radius: 10px; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
 a{
     text-decoration: none;
 }
@@ -171,12 +197,6 @@ body{
     color: rgb(129, 129, 214);
 }
 
-.sankeyframe{
-    max-height: 768px;
-    min-height: 576px; 
-    aspect-ratio: 2.2/1;
-  }
-
 path{
     fill: lightgray;
     stroke: rgb(255, 255, 255);
@@ -245,6 +265,81 @@ path:hover{
 
 .region.active{
     fill: red;
+}
+
+@media screen and (max-width: 1600px) {
+    .navframe {
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+    .navframe {
+        margin-left: 10%;
+        margin-right: 10%;
+        max-width: 80%;
+    }
+}
+
+
+
+@media screen and (max-width: 1600px) {
+    .sankeyframe {
+        min-height: 576px;
+        aspect-ratio: 2.19/1;
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+    .sankeyframe {
+        padding-left: 10%;
+        padding-right: 10%;
+        max-width: 80%;
+        aspect-ratio: 2.4/1;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .tableframe {
+        aspect-ratio: 2.2/1;
+        min-height: 400px;
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+    .tableframe {
+        padding-left: 10%;
+        padding-right: 10%;
+        aspect-ratio: 2/1;
+        max-width: 80%;
+    }
+}
+
+.sankeyhead{
+    cursor: pointer;
+    color: black;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.tablehead{
+    color: #757575;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+
+.group{
+    display:none;
+}
+
+.navcon{
+    color: #000000;
+    border: 1.75px solid black;
+    border-radius: 0px;
+    box-shadow: 1.75px 1.75px;
 }
 
 

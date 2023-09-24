@@ -1,0 +1,92 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 3px;  
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #525151;
+    border-radius: 3px; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+body{
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+}
+
+.mytable{
+
+}
+
+.mainhead{
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.head{
+    border: 1px solid rgba(184, 181, 181, 0.823);
+    border-radius: 25px;
+}
+
+.btn{
+    font-size:large;
+    font-weight: 600;
+    border-radius: 0px;
+}
+
+.btn:hover{
+    color: rgb(255, 0, 0);
+}
+
+.tablecontent{
+    border: 1px solid rgba(184, 181, 181, 0.823);
+    border-radius: 25px;
+}
+
+.tablehead{
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.tablecap{
+    font-weight: 650;
+    border-bottom: 1px solid rgb(229, 224, 224);
+}
+
+.tablerow{
+    border-bottom: 1px solid rgb(229, 224, 224);
+}
+
+.tablecell{
+    padding-top: 6px;
+    padding-bottom: 3px;
+}
+
+.caption{
+    font-weight: 650;
+}
+
+.quantity{
+    text-align: end;
+}
+
