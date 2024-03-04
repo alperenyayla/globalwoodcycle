@@ -381,7 +381,7 @@ path:hover{
         margin-right: 0.1%;
         max-width: 99.8%;
         min-height: 576px;
-        aspect-ratio: 2.4/1;
+        aspect-ratio: 2.175/1;
     }
 
     .tableframe {
@@ -411,7 +411,7 @@ path:hover{
         margin-right: 7.5%;
         max-width: 85%;
         min-height: 576px;
-        aspect-ratio: 2.175/1;
+        aspect-ratio: 2.4/1;
     }
 
     .tableframe {
