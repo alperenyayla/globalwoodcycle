@@ -337,6 +337,9 @@ path:hover{
 
 @media screen and (max-width: 1600px) {
     .tableframe {
+        margin-left: 0.1%;
+        margin-right: 0.1%;
+        max-width: 99.8%;
         aspect-ratio: 2.2/1;
         min-height: 400px;
     }
@@ -345,10 +348,11 @@ path:hover{
 
 @media screen and (min-width: 1600px) {
     .tableframe {
-        padding-left: 10%;
-        padding-right: 10%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        max-width: 85%;
         aspect-ratio: 2/1;
-        max-width: 80%;
+
     }
 }
 
