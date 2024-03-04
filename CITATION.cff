@@ -1,0 +1,12 @@
+cff-version: v0.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Alperen"
+  given-names: "Yayla"
+  orcid: "https://orcid.org/0000-0002-9525-9052"
+- family-names: "Myers"
+  given-names: "Rupert J."
+  orcid: "https://orcid.org/0000-0001-6097-2088"
+title: "Global Wood Cycle"
+version: v0.0.0
+date-released: 2024-01-29
