@@ -365,21 +365,21 @@ path:hover{
 
 @media (min-width:1400px) and (max-width:1600px) {
     .upperbody {
-        margin-left: 7.5%;
-        margin-right: 7.5%;
-        max-width: 85%;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
+        max-width: 99.8%;
     }
 
     .lowerbody {
-        margin-left: 7.5%;
-        margin-right: 7.5%;
-        max-width: 85%;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
+        max-width: 99.8%;
     }
 
     .sankeyframe {
-        margin-left: 7.5%;
-        margin-right: 7.5%;
-        max-width: 85%;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
+        max-width: 99.8%;
         min-height: 576px;
         aspect-ratio: 2.4/1;
     }
@@ -395,21 +395,21 @@ path:hover{
 
 @media screen and (min-width: 1600px) {
     .upperbody {
-        margin-left: 0.1%;
-        margin-right: 0.1%;
-        max-width: 99.8%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        max-width: 85%;
     }
 
     .lowerbody {
-        margin-left: 0.1%;
-        margin-right: 0.1%;
-        max-width: 99.8%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        max-width: 85%;
     }
 
     .sankeyframe {
-        margin-left: 0.1%;
-        margin-right: 0.1%;
-        max-width: 99.8%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        max-width: 85%;
         min-height: 576px;
         aspect-ratio: 2.175/1;
     }
