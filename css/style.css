@@ -322,11 +322,11 @@ path:hover{
 
     .sankeyframe {
         min-height: 576px;
-        aspect-ratio: 1.9/1;
+        aspect-ratio: 1.95/1;
     }
 
     .tableframe {
-        aspect-ratio: 1.9/1;
+        aspect-ratio: 1.95/1;
         min-height: 400px;
     }
 }
@@ -342,11 +342,11 @@ path:hover{
 
     .sankeyframe {
         min-height: 576px;
-        aspect-ratio: 1.9/1;
+        aspect-ratio: 1.95/1;
     }
 
     .tableframe {
-        aspect-ratio: 1.9/1;
+        aspect-ratio: 1.95/1;
         min-height: 400px;
     }
 }
@@ -362,11 +362,11 @@ path:hover{
 
     .sankeyframe {
         min-height: 576px;
-        aspect-ratio: 1.9/1;
+        aspect-ratio: 1.95/1;
     }
 
     .tableframe {
-        aspect-ratio: 1.9/1;
+        aspect-ratio: 1.95/1;
         min-height: 400px;
     }
 }
