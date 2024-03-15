@@ -275,9 +275,9 @@ path:hover{
 
 @media screen and (min-width: 1600px) {
     .navframe {
-        margin-left: 12.5%;
-        margin-right: 12.5%;
-        max-width: 75%;
+        margin-left: 20%;
+        margin-right: 20%;
+        max-width: 60%;
     }
 }
 
@@ -296,15 +296,15 @@ path:hover{
 
 @media screen and (min-width: 1600px) {
     .upperbody {
-        margin-left: 12.5%;
-        margin-right: 12.5%;
-        max-width: 75%;
+        margin-left: 20%;
+        margin-right: 20%;
+        max-width: 60%;
     }
 
     .lowerbody {
-        margin-left: 12.5%;
-        margin-right: 12.5%;
-        max-width: 75%;
+        margin-left: 20%;
+        margin-right: 20%;
+        max-width: 60%;
     }
 }
 
@@ -318,11 +318,11 @@ path:hover{
 
     .sankeyframe {
         min-height: 576px;
-        aspect-ratio: 16/9;
+        aspect-ratio: 2.4/1;
     }
 
     .tableframe {
-        aspect-ratio: 16/9;
+        aspect-ratio: 2.4/1;
         min-height: 400px;
     }
 }
@@ -336,11 +336,11 @@ path:hover{
 
     .sankeyframe {
         min-height: 576px;
-        aspect-ratio: 16/9;
+        aspect-ratio: 2.4/1;
     }
 
     .tableframe {
-        aspect-ratio: 16/9;
+        aspect-ratio: 2.4/1;
         min-height: 400px;
     }
 }
@@ -354,11 +354,11 @@ path:hover{
 
     .sankeyframe {
         min-height: 576px;
-        aspect-ratio: 16/9;
+        aspect-ratio: 2.4/1;
     }
 
     .tableframe {
-        aspect-ratio: 16/9;
+        aspect-ratio: 2.4/1;
         min-height: 400px;
     }
 }
@@ -381,44 +381,44 @@ path:hover{
         margin-right: 0.1%;
         max-width: 99.8%;
         min-height: 576px;
-        aspect-ratio: 16/9;
+        aspect-ratio: 2.4/1;
     }
 
     .tableframe {
         margin-left: 0.1%;
         margin-right: 0.1%;
         max-width: 99.8%;
-        aspect-ratio: 16/9;
+        aspect-ratio: 2.4/1;
         min-height: 400px;
     }
 }
 
 @media screen and (min-width: 1600px) {
     .upperbody {
-        margin-left: 12.5%;
-        margin-right: 12.5%;
-        max-width: 75%;
+        margin-left: 20%;
+        margin-right: 20%;
+        max-width: 60%;
     }
 
     .lowerbody {
-        margin-left: 12.5%;
-        margin-right: 12.5%;
-        max-width: 75%;
+        margin-left: 20%;
+        margin-right: 20%;
+        max-width: 60%;
     }
 
     .sankeyframe {
-        margin-left: 12.5%;
-        margin-right: 12.5%;
-        max-width: 75%;
+        margin-left: 20%;
+        margin-right: 20%;
+        max-width: 60%;
         min-height: 576px;
-        aspect-ratio: 16/9;
+        aspect-ratio: 2.4/1;
     }
 
     .tableframe {
-        margin-left: 12.5%;
-        margin-right: 12.5%;
-        max-width: 75%;
-        aspect-ratio: 16/9;
+        margin-left: 20%;
+        margin-right: 20%;
+        max-width: 60%;
+        aspect-ratio: 2.4/1;
 
     }
 }
