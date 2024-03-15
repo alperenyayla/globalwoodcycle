@@ -275,9 +275,9 @@ path:hover{
 
 @media screen and (min-width: 1600px) {
     .navframe {
-        margin-left: 20%;
-        margin-right: 20%;
-        max-width: 60%;
+        margin-left: 15%;
+        margin-right: 15%;
+        max-width: 70%;
     }
 }
 
@@ -296,15 +296,15 @@ path:hover{
 
 @media screen and (min-width: 1600px) {
     .upperbody {
-        margin-left: 20%;
-        margin-right: 20%;
-        max-width: 60%;
+        margin-left: 15%;
+        margin-right: 15%;
+        max-width: 70%;
     }
 
     .lowerbody {
-        margin-left: 20%;
-        margin-right: 20%;
-        max-width: 60%;
+        margin-left: 15%;
+        margin-right: 15%;
+        max-width: 70%;
     }
 }
 
@@ -318,11 +318,11 @@ path:hover{
 
     .sankeyframe {
         min-height: 576px;
-        aspect-ratio: 2.4/1;
+        aspect-ratio: 2/1;
     }
 
     .tableframe {
-        aspect-ratio: 2.4/1;
+        aspect-ratio: 2/1;
         min-height: 400px;
     }
 }
@@ -336,11 +336,11 @@ path:hover{
 
     .sankeyframe {
         min-height: 576px;
-        aspect-ratio: 2.4/1;
+        aspect-ratio: 2/1;
     }
 
     .tableframe {
-        aspect-ratio: 2.4/1;
+        aspect-ratio: 2/1;
         min-height: 400px;
     }
 }
@@ -354,11 +354,11 @@ path:hover{
 
     .sankeyframe {
         min-height: 576px;
-        aspect-ratio: 2.4/1;
+        aspect-ratio: 2/1;
     }
 
     .tableframe {
-        aspect-ratio: 2.4/1;
+        aspect-ratio: 2/1;
         min-height: 400px;
     }
 }
@@ -395,30 +395,30 @@ path:hover{
 
 @media screen and (min-width: 1600px) {
     .upperbody {
-        margin-left: 20%;
-        margin-right: 20%;
-        max-width: 60%;
+        margin-left: 15%;
+        margin-right: 15%;
+        max-width: 70%;
     }
 
     .lowerbody {
-        margin-left: 20%;
-        margin-right: 20%;
-        max-width: 60%;
+        margin-left: 15%;
+        margin-right: 15%;
+        max-width: 70%;
     }
 
     .sankeyframe {
-        margin-left: 20%;
-        margin-right: 20%;
-        max-width: 60%;
+        margin-left: 15%;
+        margin-right: 15%;
+        max-width: 70%;
         min-height: 576px;
-        aspect-ratio: 2.4/1;
+        aspect-ratio: 2/1;
     }
 
     .tableframe {
-        margin-left: 20%;
-        margin-right: 20%;
-        max-width: 60%;
-        aspect-ratio: 2.4/1;
+        margin-left: 15%;
+        margin-right: 15%;
+        max-width: 70%;
+        aspect-ratio: 2/1;
 
     }
 }
