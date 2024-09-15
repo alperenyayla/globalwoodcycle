@@ -1,13 +1,6 @@
 *.ipynb
 *.csv
 
-# Ignoring figures
-*.html
-*.jpg
-*.jpeg
-*.png
-*.svg
-
 # OS-specific files
 Thumbs.db               
 desktop.ini             
