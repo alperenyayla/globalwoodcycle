@@ -1,0 +1,21 @@
+*.ipynb
+*.csv
+
+# Ignoring figures
+*.html
+*.jpg
+*.jpeg
+*.png
+*.svg
+
+# OS-specific files
+Thumbs.db               
+desktop.ini             
+**/__pycache__/         
+*.py[cod]               
+.ipynb_checkpoints/     
+# Logs
+*.log                   
+*.tmp                   
+# Ignore IDE/project files
+.vscode/                
