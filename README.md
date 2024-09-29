@@ -21,7 +21,7 @@ This BaMFA code requires only a standard computer with enough RAM to support the
 - See the BaMFA study by Wang et. al. <a href="https://arxiv.org/abs/2211.06178" target="_blank" style=" text-decoration: none !important; color:red !important;">here &#10140;</a>
 - See `PyMC3` documentation <a href="https://pymc3-fork.readthedocs.io/en/latest/#" target="_blank" style=" text-decoration: none !important; color:red !important;">here &#10140;</a>
 
-###### Python dependencies
+#### Python dependencies
 
 ```
 pymc3
