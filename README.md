@@ -10,7 +10,7 @@ See interactive Sankey diagrams <a href="https://alperenyayla.github.io/globalwo
 
 The study uses BaMFA methodology for reconciliation of the available data to quantify uncertainty and improve the reliability of the quantitative results.
 
-The BaMFA model was implemented in Python (v.3.9.16), and `PyMC3` (v3.11.2) was used to conduct Bayesian inference via the No-U-Turn-Sampler algorithm. All input and output datasets are stored in the data repository hosted on<a href="https://doi.org/10.5281/zenodo.10828213" target="_blank" style=" text-decoration: none !important; color:red !important;"> Zenodo &#10140;</a>.
+The BaMFA model was implemented in Python (v3.9.16), and `PyMC3` (v3.11.2) was used to conduct Bayesian inference via the No-U-Turn-Sampler algorithm. All input and output datasets are stored in the data repository hosted on<a href="https://doi.org/10.5281/zenodo.10828213" target="_blank" style=" text-decoration: none !important; color:red !important;"> Zenodo &#10140;</a>.
 
 ### System requirements
 
