@@ -14,7 +14,7 @@ The BaMFA model was implemented in Python (v3.9.16), and `PyMC3` (v3.11.2) was u
 
 ### System requirements
 
-This BaMFA code requires only a standard computer with enough RAM to support the in-memory operations. The code has been tested on Microsoft Windows 11 Pro, x64-based processor, and 32.0 GB of installed RAM.
+This BaMFA code requires only a standard computer with enough RAM to support the in-memory operations. The code has been tested on Microsoft Windows 11 Pro, x64-based processor, and 32.0 GB of installed RAM. A wood cycle analysis of a region typically takes about 1 hour and 15 minutes on a standard computer.
 
 ### Documentation and installation guide
 
@@ -39,6 +39,6 @@ os
 
 The <a href="https://github.com/alperenyayla/globalwoodcycle/tree/main/BaMFA" target="_blank" style=" text-decoration: none !important; color:red !important;">BaMFA codebase</a>  consists of four Python and one Jupyter Notebook source files. The Python source files define the necessary functions to prepare the input data for analysis (‘preprocessingagg.py’), to construct prior distributions for analysis (‘prior.py’), to conduct material flow analysis using Bayes’ theorem (‘model.py’), and lastly to construct posterior predictive distributions and plots for model and data checking (‘posteriorpredictive.py’). An additional Python source file (‘outputforsankey.py’) is used to obtain the BaMFA model results for flows to make it easier to plot them in Sankey diagram format. The Jupyter Notebook file (‘run-wood-model.ipynb’) is used to run the complete BaMFA model and obtain outputs combining all the other source files.
 
-The BaMFA model produces posterior distributions of all child stock changes and flows by combining the prior distribution and data (including mass balance for all processes) via Bayes’ Theorem, which includes quantifying and propagating uncertainties. The posterior distribution provides estimates for each stock change or flow of interest via the posterior mean, as well as uncertainty quantification through 95% credible intervals. The expected run time for a wood cycle analysis of a region on a ‘normal’ desktop computer is around 1 hour and 15 minutes.
+The BaMFA model produces posterior distributions of all child stock changes and flows by combining the prior distribution and data (including mass balance for all processes) via Bayes’ Theorem, which includes quantifying and propagating uncertainties. The posterior distribution provides estimates for each stock change or flow of interest via the posterior mean, as well as uncertainty quantification through 95% credible intervals.
 
 All quantitative global and regional wood cycle results in this study can be reproduced using specified input data tables and the BaMFA codebase.
